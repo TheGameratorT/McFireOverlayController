@@ -7,4 +7,4 @@ Allows changing the fire opacity and height.
  - Mod Menu (optional, required to change settings in-game)
 
 ## Preview
-![sample0_0](https://raw.githubusercontent.com/TheGameratorT/McFireOverlayController/main/src-img/preview.jpg)
+![preview](https://raw.githubusercontent.com/TheGameratorT/McFireOverlayController/main/src-img/preview.jpg)
