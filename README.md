@@ -5,3 +5,6 @@ Allows changing the fire opacity and height.
  - Cloth Config
  - Auto Config (only in 1.16.5)
  - Mod Menu (optional, required to change settings in-game)
+
+## Preview
+![preview](https://raw.githubusercontent.com/TheGameratorT/McFireOverlayController/main/src-img/preview.jpg)
