@@ -23,7 +23,8 @@
     "fireoverlaycontroller.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.11.6",
-    "minecraft": "1.16.5"
+    "fabricloader": ">=0.11.7",
+    "minecraft": "1.16.5",
+    "cloth-config2": ">=4.11.26"
   }
 }
