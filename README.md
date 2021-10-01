@@ -9,4 +9,4 @@ Allows changing the in-game fire burning overlay opacity and height.
 ## Preview
 ![preview](https://raw.githubusercontent.com/TheGameratorT/McFireOverlayController/main/src-img/preview.jpg)
 
-**Title Fixer is a mod for Fabric, and there are no plans to port this mod to Forge.**
+**Fire Overlay Controller is a mod for Fabric, and there are no plans to port this mod to Forge.**
