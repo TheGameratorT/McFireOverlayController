@@ -11,7 +11,7 @@
     "homepage": "https://modrinth.com/mod/fire-overlay-controller",
     "sources": "https://github.com/TheGameratorT/McFireOverlayController"
   },
-  "license": "LGPL-3.0",
+  "license": "LGPL-3.0-only",
   "icon": "assets/fireoverlaycontroller/icon.png",
   "environment": "client",
   "entrypoints": {
