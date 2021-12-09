@@ -4,7 +4,7 @@ Allows changing the in-game fire burning overlay opacity and height.
 ## Dependencies
  - [Cloth Config](https://github.com/shedaniel/cloth-config)
  - [Auto Config](https://github.com/shedaniel/AutoConfig) (only for 1.16.5)
- - [Mod Menu](https://github.com/shedaniel/AutoConfig) (optional, required to change settings in-game)
+ - [Mod Menu](https://github.com/TerraformersMC/ModMenu) (optional, required to change settings in-game)
 
 ## Preview
 ![preview](https://raw.githubusercontent.com/TheGameratorT/McFireOverlayController/main/src-img/preview.jpg)
