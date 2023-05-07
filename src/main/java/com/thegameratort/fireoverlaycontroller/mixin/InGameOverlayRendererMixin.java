@@ -16,7 +16,7 @@ public abstract class InGameOverlayRendererMixin {
         ),
         index = 3
     )
-    private static float renderFireOverlay_opacity(float alpha) {
+    private static float renderFireOverlayOpacity(float alpha) {
         return FireOverlayController.getConfig().fireOpacity;
     }
 
@@ -24,11 +24,11 @@ public abstract class InGameOverlayRendererMixin {
         method = "renderFireOverlay(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/util/math/MatrixStack;)V",
         at = @At(
             value = "INVOKE",
-            target = "Lnet/minecraft/client/util/math/MatrixStack;translate(DDD)V"
+            target = "Lnet/minecraft/client/util/math/MatrixStack;translate(FFF)V"
         ),
         index = 1
     )
-    private static double renderFireOverlay_translate(double y) {
-        return -1.0D + FireOverlayController.getConfig().fireHeight;
+    private static float renderFireOverlayTranslate(float y) {
+        return -1.0F + FireOverlayController.getConfig().fireHeight;
     }
 }
