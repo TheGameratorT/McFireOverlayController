@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.ModifyArg;
 @Mixin(InGameOverlayRenderer.class)
 public abstract class InGameOverlayRendererMixin {
     @ModifyArg(
-        method = "renderFireOverlay(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/util/math/MatrixStack;)V",
+        method = "renderFireOverlay(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;)V",
         at = @At(
             value = "INVOKE",
             target = "Lnet/minecraft/client/render/VertexConsumer;color(FFFF)Lnet/minecraft/client/render/VertexConsumer;"
@@ -20,7 +20,7 @@ public abstract class InGameOverlayRendererMixin {
     }
 
     @ModifyArg(
-        method = "renderFireOverlay(Lnet/minecraft/client/MinecraftClient;Lnet/minecraft/client/util/math/MatrixStack;)V",
+        method = "renderFireOverlay(Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;)V",
         at = @At(
             value = "INVOKE",
             target = "Lnet/minecraft/client/util/math/MatrixStack;translate(FFF)V"

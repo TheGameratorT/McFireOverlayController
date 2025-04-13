@@ -23,11 +23,14 @@
     ]
   },
   "mixins": [
-    "fireoverlaycontroller.mixins.json"
+    {
+      "config": "fireoverlaycontroller.client.mixins.json",
+      "environment": "client"
+    }
   ],
   "depends": {
-    "fabricloader": ">=0.14.22",
-    "minecraft": ">=1.19.3",
-    "cloth-config2": ">=9.1.104"
+    "fabricloader": ">=0.16.13",
+    "minecraft": ">=1.21.4",
+    "cloth-config2": ">=16.0.143"
   }
 }
